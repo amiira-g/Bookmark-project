@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmark</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center main-heading">Bookmark</h1>
+    <h4 class="text-center gradient-text">Bookmark Your Sites</h4>
+
+    <div class="mb-4 mt-4">
+      <div class="mb-3">
+        <label for="bookmarkName" class="form-label">Bookmark Name</label>
+        <input type="text" id="bookmarkName" class="form-control" placeholder="Bookmark Name">
+      </div>
+      <div class="mb-3">
+        <label for="bookmarkUrl" class="form-label">Bookmark URL</label>
+        <input type="text" id="bookmarkUrl" class="form-control" placeholder="Bookmark URL">
+      </div>
+      <button id="submitBtn" class="btn btn-danger">Submit</button>
+    </div>
+
+    <table class="table mt-4 text-center">
+      <thead>
+        <tr>
+          <th class="text-capitalize">Index</th>
+          <th class="text-capitalize">Website Name</th>
+          <th class="text-capitalize">Visit</th>
+          <th class="text-capitalize">Delete</th>
+        </tr>
+      </thead>
+      <tbody id="tableContent"></tbody>
+    </table>
+  </div>
+
+  <script src="bootstrap.bundle.min.js"></script>
+  <script defer src="main.js"></script>
+</body>
+
+</html>

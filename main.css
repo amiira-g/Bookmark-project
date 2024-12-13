@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    font-family: 'Arial', sans-serif;
+  }
+  .container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  .main-heading {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+  }
+  .gradient-text {
+    background: linear-gradient(to left, #ff7e5f, #cab09c);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .btn-danger {
+    background-color: #ff5733;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  .btn-danger:hover {
+    background-color: #ff3b00;
+  }
+  .table thead {
+    background-color: #ff5733;
+    color: white;
+  }
+  .table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+  .table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  .btn-info:hover {
+    background-color: #138496;
+  }
+  .btn-danger {
+    transition: background-color 0.3s ease;
+  }
+  .btn-danger:hover {
+    background-color: #d43f00;
+  }
